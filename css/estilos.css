@@ -70,6 +70,10 @@ nav .brand-logo.center{
   margin: 0 auto!important;
 }
 
+#sidenav-overlay{
+  z-index: -1;
+}
+
 @media (min-width: 992px) {
 
 }

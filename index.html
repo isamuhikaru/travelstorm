@@ -11,29 +11,38 @@
     <title>Travel * Storm</title>
   <body>
 
-    <header>
+    <header class="navbar-fixed">
 
-      <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper teal darken-4">
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <a class="brand-logo right hide-on-small-only slogan">• ¡Se libre! •</a>
             <a href="#" class="brand-logo center sombra"><img src="img/travel-storm-logo.svg" width="60px;" alt="Imagen Rota" title="Index"> Travel * Storm</a>
             <ul class="hide-on-med-and-down">
               <li class="active teal accent-4"><a href="index.html"><i class="material-icons">home</i></a></li>
               <li><a href="badges.html">Recomendaciones</a></li>
-              <!-- Desencadenador del Desplegable -->
               <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Artículos<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
-            <ul class="side-nav teal darken-2" id="mobile-demo">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">Javascript</a></li>
-              <li><a href="mobile.html">Mobile</a></li>
+            <ul id="slide-out" class="side-nav">
+              <li>
+                <div class="user-view">
+                  <div class="background">
+                    <img src="img/mountains.jpg">
+                  </div>
+                  <a href="#!user"><img class="circle" src="img/hombre.png"></a>
+                  <a href="#!name"><span class="white-text name">John Doe</span></a>
+                  <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div>
+              </li>
+              <li><a href="index.html"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+              <li><a href="#!">Second Link</a></li>
+              <li><div class="divider"></div></li>
+              <li><a class="subheader">Subheader</a></li>
+              <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
             </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
           </div>
         </nav>
-      </div>
 
       <!-- Estructura Desplegable -->
       <ul id="dropdown1" class="dropdown-content">
@@ -46,12 +55,6 @@
     </header>
 
     <section class="row">
-      <div class="col s12">
-        <h6 class="center-align card-panel green">Jalando viajes chingones</h6>
-      </div>
-
-    </section>
-    <div class="row">
       <div class="col s12">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -128,7 +131,9 @@
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-    </div>
+
+    </section>
+
 
 
 
