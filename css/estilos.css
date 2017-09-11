@@ -1,0 +1,89 @@
+/*Parece que solo funciona de esta manera la clase, sin quitarle las letras
+de "material-icons" o de "md" (Esto en los dos grupos de clase de medida y en el
+coloreado de los elementos activos e inactivos que hay escritos aquí)*/
+
+/*Primer tipo de medidas que maneja Materialize (Este ancla mas con su semantica)*/
+.material-icons.tiny {font-size: 1rem;}
+.material-icons.small {font-size: 2rem;}
+.material-icons.medium {font-size: 4rem;}
+.material-icons.large {font-size: 6rem;}
+
+/*Segundo tipo de medidas que maneja Materialize*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/*Colorear lo elementos activos e inactivos*/
+.md-activo { color: #FB8C00; }
+.md-inactivo { color: #af6200; }
+
+@font-face {
+  font-family: aristaalternatelight;
+  src: url(../fonts/aristaalternatelight.ttf);
+}
+
+@font-face {
+  font-family: aristaalternatefull;
+  src: url(../fonts/aristaalternatefull.ttf);
+}
+
+.centrado-vertical-padre {
+  display: flex!important;
+}
+
+.centrado-vertical-hijo {
+  display: flex!important;
+  justify-content: center!important;
+  flex-direction: column!important;
+}
+
+.brand-logo{
+  font-family: aristaalternatefull;
+  font-size: 25px!important;
+}
+
+.sombra:hover{
+  text-shadow: 0 0 10px black!important;
+  color:#4db6ac!important;
+}
+
+.brand-logo img{
+  vertical-align: middle;
+}
+
+nav{
+  line-height: 50px;
+}
+
+nav .brand-logo.center{
+  width: 250px;
+}
+
+.slogan{
+  font-family: aristaalternatelight;
+  font-size: 20px!important;
+  letter-spacing: 5px;
+}
+
+.dropdown-content i{
+  margin: 0 auto!important;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 600px) {
+}
+
+/* Media Query para el centrado total del logo del Nav */
+@media only screen and (min-width: 601px){
+  nav{
+    line-height: 60px;
+  }
+}
