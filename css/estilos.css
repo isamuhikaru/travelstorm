@@ -80,14 +80,6 @@ nav .brand-logo.center{
   margin: 0 auto!important;
 }
 
-#sidenav-overlay{
-  z-index: -1;
-}
-
-.side-nav{
-  background: red;
-}
-
 section{
   margin-top: 10px!important;
 }
@@ -98,7 +90,7 @@ section{
 }
 
 .sombra-img:hover{
-  box-shadow: 0 4px 8px 0 black;
+  box-shadow: 0 4px 4px 0 #00695c;
 }
 
 .apilado img{
@@ -108,6 +100,39 @@ section{
 
 .apilado img:hover{
   opacity: 1;
+}
+
+#sidenav-overlay{
+  z-index: -1;
+}
+
+.side-nav{
+  background: #00bfa5;
+}
+
+.padding-campodeentrada{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.padding-campodeentrada label{
+  color: white;
+}
+
+.input-field input[type=text]:focus + label {
+     color: #00695c!important;
+   }
+
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #00695c!important;
+}
+
+.input-field .prefix.active {
+  color: #00695c!important;
+}
+
+.margin-bottom-fila{
+  margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
