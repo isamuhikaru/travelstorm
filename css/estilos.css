@@ -32,10 +32,20 @@ coloreado de los elementos activos e inactivos que hay escritos aquí)*/
   display: flex!important;
 }
 
-.centrado-vertical-hijo {
+.centrado-vertical-hijo-grupo {
   display: flex!important;
   justify-content: center!important;
   flex-direction: column!important;
+}
+
+.centrado-vertical-hijo-repartido {
+  display: flex!important;
+  justify-content: space-around!important;
+  flex-direction: column!important;
+}
+
+body{
+  background: #00695c;
 }
 
 .brand-logo{
@@ -74,15 +84,76 @@ nav .brand-logo.center{
   z-index: -1;
 }
 
-@media (min-width: 992px) {
+.side-nav{
+  background: red;
+}
 
+section{
+  margin-top: 10px!important;
+}
+
+.centrado-horizontal-section{
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.sombra-img:hover{
+  box-shadow: 0 4px 8px 0 black;
+}
+
+.apilado img{
+  margin: 10px;
+  opacity: 0.5;
+}
+
+.apilado img:hover{
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .query-vertical {
+    display: flex!important;
+  }
+  .apilado img {
+    display: block;
+    margin: auto;
+  }
+  .apilado {
+    display: flex!important;
+    justify-content: space-around!important;
+    flex-direction: column!important;
+  }
+  .quitar-padding {
+    padding: 0!important;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 991px) {
-
+  .query-vertical {
+    display: flex!important;
+  }
+  .apilado img{
+    display: block;
+    margin: auto;
+  }
+  .apilado {
+    display: flex!important;
+    justify-content: space-around!important;
+    flex-direction: column!important;
+  }
+  .quitar-padding {
+    padding: 0!important;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width:600px) {
+  .apilado{
+    display: flex!important;
+    justify-content: space-around!important;
+  }
+  .apilado a img{
+      float: left!important;
+  }
 }
 
 /* Media Query para el centrado total del logo del Nav */
