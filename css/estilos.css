@@ -44,6 +44,15 @@ coloreado de los elementos activos e inactivos que hay escritos aquí)*/
   flex-direction: column!important;
 }
 
+.centrado-horizontal{
+  margin:0 auto!important;
+  text-align: center!important;
+}
+
+.justify-align{
+  text-align: justify!important;
+}
+
 body{
   background: #00695c;
 }
@@ -81,7 +90,12 @@ nav .brand-logo.center{
 }
 
 section{
-  margin-top: 10px!important;
+  margin-top: 30px!important;
+}
+
+.padding-section{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
 }
 
 .centrado-horizontal-section{
@@ -133,6 +147,23 @@ section{
 
 .margin-bottom-fila{
   margin-bottom: 0;
+}
+
+.padding-top-contenido{
+  padding-top: 8px!important;
+}
+
+.alineado-compartir {
+  text-align: center!important;
+}
+
+.display-compartir {
+  display: inline-block;
+  font-size: 10px;
+}
+
+.tamaño-p{
+ font-size: 10px;
 }
 
 @media (min-width: 992px) {
