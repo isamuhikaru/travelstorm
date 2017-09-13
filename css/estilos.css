@@ -15,8 +15,8 @@ coloreado de los elementos activos e inactivos que hay escritos aquí)*/
 .material-icons.md-48 { font-size: 48px; }
 
 /*Colorear lo elementos activos e inactivos*/
-.md-activo { color: #FB8C00; }
-.md-inactivo { color: #af6200; }
+.md-activo { color: #00bfa5; }
+.md-inactivo { color: #004d40; }
 
 @font-face {
   font-family: aristaalternatelight;
@@ -181,6 +181,14 @@ section{
 
 .padding-inferior-modal{
   padding-bottom: 0!important;
+}
+
+.color-copyright{
+  color: #004d40!important;
+}
+
+footer i{
+  vertical-align: middle;
 }
 
 @media (min-width: 992px) {
