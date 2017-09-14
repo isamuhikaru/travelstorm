@@ -165,6 +165,11 @@ section{
   padding-top: 8px!important;
 }
 
+.margin-fila-escondida{
+  margin-left: 2px!important;
+  margin-right: 2px!important;
+}
+
 .alineado-compartir {
   text-align: center!important;
 }
