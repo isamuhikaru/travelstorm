@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+    <!--Importa la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importa la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Travel * Storm / Recomendaciones</title>
+  <body>
+
+    <header class="navbar-fixed">
+
+        <nav>
+          <div class="nav-wrapper teal darken-4">
+            <a class="brand-logo right hide-on-small-only slogan">• ¡Se libre! •</a>
+            <a href="index.html" class="brand-logo center sombra"><img src="img/travel-storm-logo.svg" width="60px;" alt="Imagen Rota" title="Index"> Travel * Storm</a>
+            <ul class="hide-on-med-and-down">
+              <li><a href="index.html"><i class="material-icons">home</i></a></li>
+              <li class="active teal accent-4"><a>Recomendaciones</a></li>
+              <li><a class="dropdown-button" data-activates="dropdown1">Artículos<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul id="slide-out" class="side-nav">
+              <li>
+                <div class="user-view">
+                  <h5 class="white-text center-align">•Ir a:</h5>
+                </div>
+              </li>
+              <li>
+                <div class="input-field padding-campodeentrada">
+                  <i class="material-icons prefix">search</i>
+                  <input class="validate" id="search" type="text">
+                  <label for="search">Artículo</label>
+                </div>
+              </li>
+              <li><div class="divider"></div></li>
+              <li class="active teal darken-4"><a class="waves-effect teal-text text-accent-2">•Recomendaciones</a></li>
+              <li><a href="viajes.html" class="waves-effect">•Viajes</a></li>
+              <li><a href="fotos.html" class="waves-effect">•Fotos</a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          </div>
+        </nav>
+
+      <!-- Estructura Desplegable -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#" class="center-align"><i class="material-icons">search</i>Buscar</a></li>
+        <li class="divider"></li>
+        <li><a href="#" class="center-align"><i class="material-icons">location_on</i>Viajes</a></li>
+        <li><a href="#" class="center-align"><i class="material-icons">photo</i>Fotos</a></li>
+      </ul>
+
+    </header>
+
+    <article class="row container section">
+
+      <aside class="col s12 m4 l3 push-m8 push-l9 card-panel teal darken-4">
+        <div class="row"><br>
+          <div class="col s12">
+            <div class="collection">
+              <a class="collection-item active"><span class="badge white-text">5</span>Recomend.</a>
+              <a href="#" class="collection-item"><span class="new badge">2</span>Viajes</a>
+              <a href="#" class="collection-item"><span class="badge">20</span>Fotos</a>
+            </div>
+          </div>
+          <div class="col s12">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/mountains.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Biografía<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://rockforeverbe.blogspot.mx/" class="liga-bold teal-text text-darken-2">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text text-darken-2"><strong>Card Title</strong><i class="material-icons right">close</i></span>
+                <p class="justify-align">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="col s12 m8 l9 pull-m4 pull-l3 card-panel teal accent-4 padding-top-contenido">
+        <div class="row margin-bottom-fila">
+
+          <nav class="teal darken-2">
+           <div class="nav-wrapper right">
+             <div class="col s12">
+               <a href="index.html" class="breadcrumb">Index</a>
+               <a class="breadcrumb"><span class="teal accent-4">Recomendaciones</span></a>
+             </div>
+           </div>
+         </nav>
+
+          <div class="col s12">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/mountains.jpg">
+                <span class="card-title">Card Title 1</span>
+              </div>
+              <div class="card-content padding-comentarios">
+                <table class="centered">
+                  <thead>
+                    <tr>
+                        <th>Lugar</th>
+                        <th>Distancia del DF</th>
+                        <th>Tiempo de llegada</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>Alvin</td>
+                      <td>Eclair</td>
+                      <td>$0.87</td>
+                    </tr>
+                    <tr>
+                      <td>Alan</td>
+                      <td>Jellybean</td>
+                      <td>$3.76</td>
+                    </tr>
+                    <tr>
+                      <td>Jonathan</td>
+                      <td>Lollipop</td>
+                      <td>$7.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p class="justify-align">Lorem m dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <br>
+                <p class="tamaño-p center-align">*Publicado el 12/09/17 por: <a href="#" class="liga-bold teal-text text-darken-2">César Cuevas</a></p>
+                <hr>
+                <div class="center-align">
+                  <p class="display-compartir">Compartir: </p>
+                  <div class="display-compartir centrado-horizontal">
+                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/facebook-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/google+-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/twitter-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/pinterest-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/tumblr-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                  </div>
+                </div>
+                <hr>
+                <h5 class="center-align tipo">Comentarios:</h5>
+                <form class="center-align">
+                  <div class="input-field">
+                    <i class="material-icons prefix">edit</i>
+                   <textarea id="textarea1" class="materialize-textarea"></textarea>
+                   <label for="textarea1">Mandanos un mensaje:</label>
+                   <a href="#" class="waves-effect waves-light btn teal darken-4">Enviar</a
+                  </div>
+                </form>
+                <ul class="collapsible" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">sentiment_very_satisfied</i>
+                      shocker-9875
+                      <span class="new badge" data-badge-caption="Desplegar"></span>
+                    </div>
+                    <div class="collapsible-body">
+                      <p class="justify-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="center-align">
+                          <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Responder</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Reportar</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Bloquear</a>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">sentiment_satisfied</i>
+                      thunder-ly84
+                      <span class="new badge" data-badge-caption="Desplegar"></span>
+                    </div>
+                    <div class="collapsible-body">
+                      <p class="justify-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="center-align">
+                          <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Responder</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Reportar</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Bloquear</a>
+                        </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Estructura del Modal 1 -->
+          <div id="modal1a" class="modal">
+            <div class="modal-content padding-inferior-modal">
+              <h4 class="teal-text text-darken-2 tipo">Modal Header</h4>
+              <img width="100%" src="img/mountains.jpg" alt="Imagen Rota" title="Montañas">
+              <p class="center-align">A bunch of text</p>
+            </div>
+            <div class="modal-footer padding-boton centrado-horizontal">
+              <a href="#modal1b" class="modal-action modal-close waves-effect waves-green btn modal-trigger teal darken-3">Compartir</a>
+              <a class="modal-action modal-close waves-effect waves-green btn teal darken-3">Cancelar</a>
+            </div>
+          </div>
+
+          <!-- Modal Structure 2 -->
+         <div id="modal1b" class="modal bottom-sheet">
+           <div class="modal-content padding-modal-content"><br>
+             <h5 class="center-align">Gracias por compartir mis artículos</h5>
+           </div>
+           <div class="modal-footer">
+             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">ok</a>
+           </div>
+         </div>
+
+        </div>
+
+      </div>
+
+    </article>
+
+    <footer class="fixed-action-btn toolbar">
+      <a class="btn-floating btn-large teal accent-4">
+        <i class="small material-icons color-copyright">info</i>
+      </a>
+      <ul>
+        <li class="waves-effect waves-light"><a href="http://rockforeverbe.blogspot.mx/" target="_blank"><i class="material-icons">public</i></a></li>
+        <li class="waves-effect waves-light"><a href="#"><i class="material-icons">copyright</i> 2017</a></li>
+        <li class="waves-effect waves-light"><a href="mailto:isamuhikaru@hotmail.com" target="_blank"><i class="material-icons">face</i></a></li>
+      </ul>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Script para el menu lateral -->
+    <script>
+      $(document).ready(function(){
+        $(".button-collapse").sideNav();
+        $('.materialboxed').materialbox()
+        $('.modal').modal();
+      })
+    </script>
+  </body>
+</html>

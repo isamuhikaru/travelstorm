@@ -27,6 +27,10 @@ coloreado de los elementos activos e inactivos que hay escritos aquí)*/
   font-family: aristaalternatefull;
   src: url(../fonts/aristaalternatefull.ttf);
 }
+@font-face {
+  font-family: bougan;
+  src: url(../fonts/bougan.ttf);
+}
 
 .centrado-vertical-padre {
   display: flex!important;
@@ -103,6 +107,14 @@ section{
   padding: 5px;
 }
 
+.card-title, .tipo{
+  font-family: aristaalternatelight;
+}
+
+.card-content .justify-align{
+  font-family: bougan;
+}
+
 .sombra-img:hover{
   box-shadow: 0 4px 4px 0 #00695c;
 }
@@ -162,6 +174,14 @@ section{
   font-size: 10px;
 }
 
+.opacidad{
+  opacity:0.5!important;
+}
+
+.opacidad:hover{
+  opacity:1!important;
+}
+
 .tamaño-p{
  font-size: 10px;
 }
@@ -191,7 +211,22 @@ footer i{
   vertical-align: middle;
 }
 
+.liga-bold:hover{
+  font-weight: bold;
+}
+
+.padding-comentarios{
+  padding-bottom: 10px!important;
+}
+
+textarea{
+  margin-bottom: 0!important;
+}
+
 @media (min-width: 992px) {
+  nav{
+    line-height: 64px!important;
+  }
   .query-vertical {
     display: flex!important;
   }
