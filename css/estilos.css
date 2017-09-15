@@ -115,10 +115,18 @@ section{
   padding: 5px;
 }
 
-.card-title, .tipo{
+.tipo{
   font-family: aristaalternatelight;
 }
 
+.card-title{
+  font-family: aristaalternatelight;
+  font-weight: bold!important;
+}
+
+.titulo-sombra{
+  text-shadow: 0 0 5px black,0 0 5px black!important;
+}
 .card-content .justify-align{
   font-family: bougan;
 }
