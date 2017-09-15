@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
-    <!--Importa la fuente de los íconos de Google-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Importa la hojas de estilos de materialize css-->
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Travel * Storm / Fotos</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no">
+  <!--Importa la fuente de los íconos de Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importa la hojas de estilos de materialize css-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <title>Travel * Storm / Fotos</title>
+
   <body>
 
     <header class="navbar-fixed">
 
-        <nav>
-          <div class="nav-wrapper teal darken-4">
-            <a class="brand-logo right hide-on-small-only slogan">• ¡Se libre! •</a>
-            <a href="index.html" class="brand-logo center sombra"><img src="img/travel-storm-logo.svg" width="60px;" alt="Imagen Rota" title="Index"> Travel * Storm</a>
-            <ul class="hide-on-med-and-down">
-              <li><a href="index.html"><i class="material-icons">home</i></a></li>
-              <li><a href="recomendaciones.html">Recomendaciones</a></li>
-              <li><a class="dropdown-button" data-activates="dropdown1">Artículos<i class="material-icons right">arrow_drop_down</i></a></li>
-            </ul>
-            <ul id="slide-out" class="side-nav">
-              <li>
-                <div class="user-view">
-                  <h5 class="white-text center-align">•Ir a:</h5>
-                </div>
-              </li>
-              <li>
-                <div class="input-field padding-campodeentrada">
-                  <i class="material-icons prefix">search</i>
-                  <input class="validate" id="search" type="text">
-                  <label for="search">Artículo</label>
-                </div>
-              </li>
-              <li><div class="divider"></div></li>
-              <li><a href="recomendaciones.html" class="waves-effect">•Recomendaciones</a></li>
-              <li><a href="viajes.html" class="waves-effect">•Viajes</a></li>
-              <li class="active teal darken-4"><a class="waves-effect teal-text text-accent-2">•Fotos</a></li>
-            </ul>
-            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <nav>
+        <div class="nav-wrapper teal darken-4">
+          <a class="brand-logo right hide-on-small-only slogan">• ¡Se libre! •</a>
+          <a href="index.html" class="brand-logo center sombra"><img src="img/travel-storm-logo.svg" width="60px;" alt="Imagen Rota" title="Index"> Travel * Storm</a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons">home</i></a></li>
+            <li><a href="recomendaciones.html">Recomendaciones</a></li>
+            <li><a class="dropdown-button" data-activates="dropdown1">Artículos<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <ul id="slide-out" class="side-nav">
+            <li>
+              <div class="user-view">
+                <h5 class="white-text center-align">•Ir a:</h5>
+              </div>
+            </li>
+            <li>
+              <div class="input-field padding-campodeentrada">
+                <i class="material-icons prefix">search</i>
+                <input class="validate" id="search" type="text">
+                <label for="search">Artículo</label>
+              </div>
+            </li>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a href="recomendaciones.html" class="waves-effect">•Recomendaciones</a></li>
+            <li><a href="viajes.html" class="waves-effect">•Viajes</a></li>
+            <li class="active teal darken-4"><a class="waves-effect teal-text text-accent-2">•Fotos</a></li>
+          </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
-          </div>
-        </nav>
+        </div>
+      </nav>
 
       <!-- Estructura Desplegable -->
       <ul id="dropdown1" class="dropdown-content">
@@ -59,25 +63,25 @@
 
       <aside class="col s12 m4 l3 push-m8 push-l9 card-panel teal darken-4">
 
-            <div class="collection">
-              <a href="recomendaciones.html" class="collection-item"><span class="badge">5</span>Recomend.</a>
-              <a href="viajes.html" class="collection-item"><span class="new badge">2</span>Viajes</a>
-              <a href="fotos.html" class="active collection-item"><span class="badge white-text">20</span>Fotos</a>
-            </div>
+        <div class="collection">
+          <a href="recomendaciones.html" class="collection-item"><span class="badge">5</span>Recom.</a>
+          <a href="viajes.html" class="collection-item"><span class="new badge">2</span>Viajes</a>
+          <a href="fotos.html" class="active collection-item"><span class="badge white-text">20</span>Fotos</a>
+        </div>
 
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="img/biografia.jpg" alt="Imagen Rota" title="Biografía">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Biografía<i class="material-icons right">more_vert</i></span>
-                <p><a href="http://rockforeverbe.blogspot.mx/" class="liga-bold teal-text text-darken-2">Mi Blog</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text text-darken-2"><strong>¡Hola!</strong><i class="material-icons right">close</i></span>
-                <p class="justify-align tipo">♪♫♪ ♫♪ ♪ Pues tengo 2 ojos, una nariz, 2 brazos, 2 pies, etc. ♫ ♪♫ ♫ ♪</p>
-              </div>
-            </div>
+        <div class="card hide-on-small-only">
+          <div class="card-image circle waves-effect waves-block waves-light">
+            <img class="activator" src="img/biografia.jpg" alt="Imagen Rota" title="Biografía">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Biografía<i class="material-icons right">more_vert</i></span>
+            <p><a href="http://rockforeverbe.blogspot.mx/" class="liga-bold teal-text text-darken-2">Mi Blog</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title teal-text text-darken-2"><strong>¡Hola!</strong><i class="material-icons right">close</i></span>
+            <p class="justify-align tipo">♪♫♪ ♫♪ ♪ Pues tengo 2 ojos, una nariz, 2 brazos, 2 pies, etc. ♫ ♪♫ ♫ ♪</p>
+          </div>
+        </div>
 
       </aside>
 
@@ -85,41 +89,45 @@
         <div class="row margin-bottom-fila">
 
           <nav class="teal darken-2">
-           <div class="nav-wrapper right">
-             <div class="col s12">
-               <a href="index.html" class="breadcrumb">Index</a>
-               <a class="breadcrumb"><span class="teal accent-4">Fotos</span></a>
-             </div>
-           </div>
-         </nav>
+            <div class="nav-wrapper right">
+              <div class="col s12">
+                <a href="index.html" class="breadcrumb">Index</a>
+                <a class="breadcrumb"><span class="teal accent-4">Fotos</span></a>
+              </div>
+            </div>
+          </nav>
 
           <div class="col s12">
             <div class="card">
               <div class="slider">
                 <ul class="slides">
                   <li>
-                    <img src="img/cancun1.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
+                    <img src="img/cancun1.jpg" alt="imagen Rota" title="Cancún">
+                    <!-- Imagen Aleatoria -->
                     <div class="caption center-align">
                       <h3>Enormes y frescas piscinas</h3>
                       <h5 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="img/cancun2.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
+                    <img src="img/cancun2.jpg" alt="imagen Rota" title="Cancún">
+                    <!-- Imagen Aleatoria -->
                     <div class="caption center-align">
                       <h3>Gran cantidad de cenotes</h3>
                       <h5 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="img/cancun3.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
+                    <img src="img/cancun3.jpg" alt="imagen Rota" title="Cancún">
+                    <!-- Imagen Aleatoria -->
                     <div class="caption center-align">
                       <h3>Chozas sobre el mar</h3>
                       <h5 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="img/cancun4.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
+                    <img src="img/cancun4.jpg" alt="imagen Rota" title="Cancún">
+                    <!-- Imagen Aleatoria -->
                     <div class="caption center-align">
                       <h3>Hoteles de primer nivel</h3>
                       <h5 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h5>
@@ -137,9 +145,9 @@
                 <table class="centered">
                   <thead>
                     <tr>
-                        <th>•Lugar:</th>
-                        <th>•Distancia del DF:</th>
-                        <th>•Tiempo de llegada:</th>
+                      <th>•Lugar:</th>
+                      <th>•Distancia del DF:</th>
+                      <th>•Tiempo de llegada:</th>
                     </tr>
                   </thead>
 
@@ -156,28 +164,33 @@
                     </tr>
                   </tbody>
                 </table>
-                <p class="justify-align">Cancún se ubica en Quintana Roo, México, y las claras aguas del Caribe la rodean. Lo caracterizan sus hermosas playas cuya arena de coral es fina y blanca. Su mar de aguas transparentes posee un matiz impresionante de azules que va desde el esmeralda hasta el turquesa y que te hará repensar lo que significa la claridad.</p>
+                <p class="justify-align">Cancún se ubica en Quintana Roo, México, y las claras aguas del Caribe la rodean. Lo caracterizan sus hermosas playas cuya arena de coral es fina y blanca. Su mar de aguas transparentes posee un matiz impresionante de azules que va desde
+                  el esmeralda hasta el turquesa y que te hará repensar lo que significa la claridad.</p>
                 <br>
                 <p class="justify-align">Podrás encontrar ruinas donde tendrás un atisbo de la cultura maya, como la zona arqueológica El Rey o el Templo del Alacrán (Yamil Lu’um) o disfrutar del espectáculo natural del agua en Xel-Ha, considerado un acuario natural.</p>
                 <br>
-                <p class="justify-align">Visitar el Río Secreto te hará reconocer el paso del tiempo y sentir en carne propia el Xibalbá. Xcaret, entre la selva maya y el mar Caribe, te ofrece el parque eco-arqueológico más importante del país. Por tal motivo, Trip Advisor nombró a Cancún como el 2do destino más atractivo para vacacionar en verano en 2016.</p>
+                <p class="justify-align">Visitar el Río Secreto te hará reconocer el paso del tiempo y sentir en carne propia el Xibalbá. Xcaret, entre la selva maya y el mar Caribe, te ofrece el parque eco-arqueológico más importante del país. Por tal motivo, Trip Advisor nombró
+                  a Cancún como el 2do destino más atractivo para vacacionar en verano en 2016.</p>
                 <br>
                 <p class="justify-align">Su vida nocturna, una de las más candentes del país, junto con el pacífico contraste del museo subacuático de arte al que puedes acceder buceando, son una pequeña muestra del abanico de opciones que te ofrece.</p>
                 <br>
-                <p class="justify-align">De 1989 a la fecha, Cancún se convirtió en la ciudad con mayor dinamismo del país. Contribuye con uno de los más altos porcentajes de divisas turísticas que ingresan a México y participa en forma sustancial en el producto interno bruto de Quintana Roo. Actualmente, su población permanente asciende a más de 500 mil habitantes. Se ha convertido en el centro turístico más importante del país y es la ciudad más próspera de la península. Es asimismo el primer destino turístico del Caribe, superando a Bahamas y Puerto Rico</p>
+                <p class="justify-align">De 1989 a la fecha, Cancún se convirtió en la ciudad con mayor dinamismo del país. Contribuye con uno de los más altos porcentajes de divisas turísticas que ingresan a México y participa en forma sustancial en el producto interno bruto
+                  de Quintana Roo. Actualmente, su población permanente asciende a más de 500 mil habitantes. Se ha convertido en el centro turístico más importante del país y es la ciudad más próspera de la península. Es asimismo el primer destino turístico
+                  del Caribe, superando a Bahamas y Puerto Rico</p>
                 <br>
-                <p class="justify-align">Las expectativas hacia el futuro son alentadoras. Al norte de Zona Hotelera, en Puerto Cancún, se prevé la construcción de una marina de lujo con hoteles de bajo impacto; y al suroeste, rumbo al aeropuerto, se proyecta la creación de más hoteles, campos de golf y un moderno hospital. Además, en los 131 Km. del corredor turístico Cancún-Tulum están en puerta importantes desarrollos turísticos.</p>
+                <p class="justify-align">Las expectativas hacia el futuro son alentadoras. Al norte de Zona Hotelera, en Puerto Cancún, se prevé la construcción de una marina de lujo con hoteles de bajo impacto; y al suroeste, rumbo al aeropuerto, se proyecta la creación de más
+                  hoteles, campos de golf y un moderno hospital. Además, en los 131 Km. del corredor turístico Cancún-Tulum están en puerta importantes desarrollos turísticos.</p>
                 <br>
                 <p class="tamaño-p center-align">*Publicado el 12/09/17 por: <a href="#" class="liga-bold teal-text text-darken-2">César Cuevas</a></p>
                 <hr>
                 <div class="center-align">
                   <p class="display-compartir">Compartir: </p>
                   <div class="display-compartir centrado-horizontal">
-                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/facebook-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
-                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/google+-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
-                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/twitter-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
-                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/pinterest-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
-                      <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/tumblr-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                    <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/facebook-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                    <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/google+-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                    <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/twitter-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                    <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/pinterest-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
+                    <a href="#modal1a" class="opacidad waves-effect waves-light modal-trigger"><img src="entypo/tumblr-with-circle.svg" alt="Enlace Roto" width="18px;"></a>
                   </div>
                 </div>
                 <hr>
@@ -185,9 +198,9 @@
                 <form class="center-align">
                   <div class="input-field">
                     <i class="material-icons prefix">edit</i>
-                   <textarea id="textarea1" class="materialize-textarea"></textarea>
-                   <label for="textarea1">Mandanos un mensaje:</label>
-                   <a href="#" class="waves-effect waves-light btn teal darken-4">Enviar</a
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Mandanos un mensaje:</label>
+                    <a href="#" class="waves-effect waves-light btn teal darken-4">Enviar</a
                   </div>
                 </form>
                 <ul class="collapsible" data-collapsible="accordion">
@@ -205,88 +218,88 @@
                         sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <div class="center-align">
                           <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Responder</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Reportar</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Bloquear</a>
-                        </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header">
-                      <i class="material-icons">sentiment_satisfied</i>
-                      thunder-ly84
-                      <span class="new badge" data-badge-caption="Desplegar"></span>
-                    </div>
-                    <div class="collapsible-body">
-                      <p class="justify-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="center-align">
-                          <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Responder</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Reportar</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Bloquear</a>
-                        </div>
-                    </div>
-                  </li>
-                </ul>
+                  </div>
               </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">sentiment_satisfied</i> thunder-ly84
+                  <span class="new badge" data-badge-caption="Desplegar"></span>
+                </div>
+                <div class="collapsible-body">
+                  <p class="justify-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <div class="center-align">
+                    <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Responder</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Reportar</a> / <a href="#" class="tamaño-p liga-bold teal-text text-darken-2">Bloquear</a>
+                  </div>
+                </div>
+              </li>
+              </ul>
             </div>
           </div>
-
-          <!-- Estructura del Modal 1 -->
-          <div id="modal1a" class="modal">
-            <div class="modal-content padding-inferior-modal">
-              <h4 class="center-align teal-text text-darken-2 tipo">Cancún</h4>
-
-              <div class="slider">
-                <ul class="slides">
-                  <li>
-                    <img src="img/cancun1.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
-                    <div class="caption center-align">
-                      <h4>Enormes y frescas piscinas</h4>
-                      <h6 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h6>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="img/cancun2.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
-                    <div class="caption center-align">
-                      <h4>Gran cantidad de cenotes</h4>
-                      <h6 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h6>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="img/cancun3.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
-                    <div class="caption center-align">
-                      <h4>Chozas sobre el mar</h4>
-                      <h6 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h6>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="img/cancun4.jpg" alt="imagen Rota" title="Cancún"> <!-- Imagen Aleatoria -->
-                    <div class="caption center-align">
-                      <h3>Hoteles de primer nivel</h3>
-                      <h5 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h5>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <p class="center-align">"La perla del mar caribe / La selva y el mar juntas solo para ti"</p>
-            </div>
-            <div class="modal-footer padding-boton centrado-horizontal">
-              <a href="#modal1b" class="modal-action modal-close waves-effect waves-green btn modal-trigger teal darken-3">Compartir</a>
-              <a class="modal-action modal-close waves-effect waves-green btn teal darken-3">Cancelar</a>
-            </div>
-          </div>
-
-          <!-- Modal Structure 2 -->
-         <div id="modal1b" class="modal bottom-sheet">
-           <div class="modal-content padding-modal-content"><br>
-             <h5 class="center-align">Gracias por compartir mis artículos</h5>
-           </div>
-           <div class="modal-footer">
-             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">ok</a>
-           </div>
-         </div>
-
         </div>
+
+        <!-- Estructura del Modal 1 -->
+        <div id="modal1a" class="modal">
+          <div class="modal-content padding-inferior-modal">
+            <h4 class="center-align teal-text text-darken-2 tipo">Cancún</h4>
+
+            <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src="img/cancun1.jpg" alt="imagen Rota" title="Cancún">
+                  <!-- Imagen Aleatoria -->
+                  <div class="caption center-align">
+                    <h4>Enormes y frescas piscinas</h4>
+                    <h6 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h6>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/cancun2.jpg" alt="imagen Rota" title="Cancún">
+                  <!-- Imagen Aleatoria -->
+                  <div class="caption center-align">
+                    <h4>Gran cantidad de cenotes</h4>
+                    <h6 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h6>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/cancun3.jpg" alt="imagen Rota" title="Cancún">
+                  <!-- Imagen Aleatoria -->
+                  <div class="caption center-align">
+                    <h4>Chozas sobre el mar</h4>
+                    <h6 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h6>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/cancun4.jpg" alt="imagen Rota" title="Cancún">
+                  <!-- Imagen Aleatoria -->
+                  <div class="caption center-align">
+                    <h3>Hoteles de primer nivel</h3>
+                    <h5 class="light grey-text text-lighten-3">¡Ven a disfrutarlo!</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <p class="center-align">"La perla del mar caribe / La selva y el mar juntas solo para ti"</p>
+          </div>
+          <div class="modal-footer padding-boton centrado-horizontal">
+            <a href="#modal1b" class="modal-action modal-close waves-effect waves-green btn modal-trigger teal darken-3">Compartir</a>
+            <a class="modal-action modal-close waves-effect waves-green btn teal darken-3">Cancelar</a>
+          </div>
+        </div>
+
+        <!-- Modal Structure 2 -->
+        <div id="modal1b" class="modal bottom-sheet">
+          <div class="modal-content padding-modal-content"><br>
+            <h5 class="center-align">Gracias por compartir mis artículos</h5>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">ok</a>
+          </div>
+        </div>
+
+      </div>
 
       </div>
 
@@ -308,7 +321,7 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- Script para el menu lateral -->
     <script>
-      $(document).ready(function(){
+      $(document).ready(function() {
         $(".button-collapse").sideNav();
         $('.materialboxed').materialbox()
         $('.modal').modal();
@@ -316,4 +329,5 @@
       })
     </script>
   </body>
+
 </html>
